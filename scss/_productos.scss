@@ -1,0 +1,196 @@
+@mixin display($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+}
+
+.grid__productos {
+    display: grid;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 50px 400px 100px 50px 600px 100px;
+    grid-template-areas: "titulo titulo titulo"
+                        "foto1 foto2 foto3"
+                        "p      p       p"
+                        "titulo2 titulo2 titulo2"
+                        "mural mural mural"
+                        "p2      p2       p2";
+    img {
+        max-height: 100%;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        grid-area: titulo;
+        @include display (flex, center)
+    }
+
+    .foto1 {
+        grid-area: foto1;
+        @include display (flex, center)
+    }
+
+    .foto2 {
+        grid-area: foto2;
+        @include display (flex, center)
+    }
+
+    .foto3 {
+        grid-area: foto3;
+        @include display (flex, center)
+    }
+
+    .titulo2 {
+        grid-area: titulo2;
+        @include display (flex, center)
+    }
+
+    .mural {
+        grid-area: mural;
+        height: 600px;
+        @include display (flex, center)
+    }
+
+    .p2 {
+        grid-area: p2;
+        margin-top: 20px;
+        text-align: center;
+        @include display (flex, center)
+    }
+
+    .p {
+        grid-area: p;
+        margin-top: 20px;
+        text-align: center;
+        @include display (flex, center)
+    }
+}
+
+@media (max-width:1200px){
+    .grid__productos {
+        display: grid;
+        justify-content: center;
+        color: white;
+        padding: 20px;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: 50px 300px 80px 50px 300px 80px;
+        grid-template-areas: "titulo titulo titulo"
+                            "foto1 foto2 foto3"
+                            "p      p       p"
+                            "titulo2 titulo2 titulo2"
+                            "mural mural mural"
+                            "p2      p2       p2";
+        img {
+            max-height: 100%;
+            border-radius: 10px;
+        }
+        .titulo {
+            grid-area: titulo;
+            @include display (flex, center)
+        }
+        
+        .foto1 {
+            grid-area: foto1;
+            @include display (flex, center)
+        }
+        
+        .foto2 {
+            grid-area: foto2;
+            @include display (flex, center)
+        }
+        
+        .foto3 {
+            grid-area: foto3;
+            @include display (flex, center)
+        }
+        .titulo2 {
+            grid-area: titulo2;
+            @include display (flex, center)
+        }
+        
+        .mural {
+            grid-area: mural;
+            height: 300px;
+            @include display (flex, center)
+        }
+        
+        .p2 {
+            grid-area: p2;
+            margin-top: 20px;
+            text-align: center;
+            @include display (flex, center)
+        }
+        
+        .p {
+            grid-area: p;
+            margin-top: 20px;
+            text-align: center;
+            @include display (flex, center)
+        }
+    }
+}
+
+@media (max-width:735px){
+    .grid__productos {
+        display: grid;
+        justify-content: center;
+        color: white;
+        padding: 20px;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 50px 200px 180px 50px 200px 180px;
+        grid-template-areas: "titulo titulo"
+                            "foto1 foto2"
+                            "p      p  "
+                            "titulo2 titulo2"
+                            "mural mural"
+                            "p2      p2 ";
+        img {
+            max-height: 100%;
+            border-radius: 10px;
+        }
+        .titulo {
+            grid-area: titulo;
+            @include display (flex, center)
+        }
+        
+        .foto1 {
+            grid-area: foto1;
+            @include display (flex, center)
+        }
+        
+        .foto2 {
+            grid-area: foto2;
+            @include display (flex, center)
+        }
+        
+        .foto3 {
+            display: none;
+        }
+        
+        .titulo2 {
+            grid-area: titulo2;
+            @include display (flex, center)
+        }
+        
+        .mural {
+            grid-area: mural;
+            height: 200px;
+            @include display (flex, center)
+        }
+        
+        .p2 {
+            grid-area: p2;
+            margin-top: 20px;
+            text-align: center;
+            @include display (flex, center)
+        }
+        
+        .p {
+            grid-area: p;
+            margin-top: 20px;
+            text-align: center;
+            @include display (flex, center)
+        }
+    }
+}

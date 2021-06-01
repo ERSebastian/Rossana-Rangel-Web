@@ -1,0 +1,424 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+@media (min-width: 992px) {
+  .caja__quiensoy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
+
+@media (max-width: 991px) {
+  .caja__quiensoy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .caja__quiensoy img {
+      width: 500px; } }
+
+@media (max-width: 720px) {
+  .caja__quiensoy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .caja__quiensoy img {
+      width: 300px; } }
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+  footer img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 13px; }
+
+@media (max-width: 991px) {
+  footer img {
+    height: 25px;
+    width: 25px; } }
+
+.thumbnail__columnas {
+  max-width: 100%; }
+  .thumbnail__columnas img {
+    margin: 8px 8px;
+    vertical-align: middle;
+    width: 250px;
+    height: 300px; }
+
+.prueba {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue; }
+
+@media (min-width: 992px) {
+  .foto__vertical {
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 500px; }
+  .foto__horizontal {
+    display: none; }
+  .texto__quiensoy {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    justify-content: center; }
+  .cajas__quiensoy {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh; } }
+
+.boton__quiensoy {
+  position: relative;
+  background-color: #ff9100;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer; }
+  .boton__quiensoy a {
+    outline: none;
+    text-decoration: none;
+    color: white; }
+
+.boton__quiensoy:hover {
+  background-color: #da8313; }
+
+@media (max-width: 991px) {
+  .foto__vertical {
+    display: none; }
+  .foto__horizontal {
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+    width: 95%; }
+  .texto__quiensoy {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px; }
+  .cajas__quiensoy {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin: 10px; } }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #ffffff; }
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #ffffff; }
+
+input::placeholder, textarea::placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #ffffff; }
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #ffffff; }
+
+/* on hover placeholder */
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #ffffff; }
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #ffffff; }
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #ffffff; }
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #ffffff; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e2dedb;
+  color: #ffffff; }
+
+header {
+  color: white;
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px; }
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto; }
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+input:hover {
+  background: #faa45e;
+  color: #e2dedb; }
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #ffffff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+textarea:hover {
+  background: #faa45e;
+  color: #e2dedb; }
+
+#submit {
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #ffffff;
+  border-top: none; }
+
+#submit:hover {
+  color: #e2dedb; }
+
+@media (max-width: 600px) {
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px auto 100px auto;
+    width: auto; }
+  input {
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px 0px 15px; }
+  textarea {
+    width: 300px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px; } }
+
+.grid__productos {
+  display: grid;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 50px 400px 100px 50px 600px 100px;
+  grid-template-areas: "titulo titulo titulo" "foto1 foto2 foto3" "p      p       p" "titulo2 titulo2 titulo2" "mural mural mural" "p2      p2       p2"; }
+  .grid__productos img {
+    max-height: 100%;
+    border-radius: 10px; }
+  .grid__productos .titulo {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .foto1 {
+    grid-area: foto1;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .foto2 {
+    grid-area: foto2;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .foto3 {
+    grid-area: foto3;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .titulo2 {
+    grid-area: titulo2;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .mural {
+    grid-area: mural;
+    height: 600px;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .p2 {
+    grid-area: p2;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+  .grid__productos .p {
+    grid-area: p;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+
+@media (max-width: 1200px) {
+  .grid__productos {
+    display: grid;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 50px 300px 80px 50px 300px 80px;
+    grid-template-areas: "titulo titulo titulo" "foto1 foto2 foto3" "p      p       p" "titulo2 titulo2 titulo2" "mural mural mural" "p2      p2       p2"; }
+    .grid__productos img {
+      max-height: 100%;
+      border-radius: 10px; }
+    .grid__productos .titulo {
+      grid-area: titulo;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto1 {
+      grid-area: foto1;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto2 {
+      grid-area: foto2;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto3 {
+      grid-area: foto3;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .titulo2 {
+      grid-area: titulo2;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .mural {
+      grid-area: mural;
+      height: 300px;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .p2 {
+      grid-area: p2;
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .p {
+      grid-area: p;
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center; } }
+
+@media (max-width: 735px) {
+  .grid__productos {
+    display: grid;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 50px 200px 180px 50px 200px 180px;
+    grid-template-areas: "titulo titulo" "foto1 foto2" "p      p  " "titulo2 titulo2" "mural mural" "p2      p2 "; }
+    .grid__productos img {
+      max-height: 100%;
+      border-radius: 10px; }
+    .grid__productos .titulo {
+      grid-area: titulo;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto1 {
+      grid-area: foto1;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto2 {
+      grid-area: foto2;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .foto3 {
+      display: none; }
+    .grid__productos .titulo2 {
+      grid-area: titulo2;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .mural {
+      grid-area: mural;
+      height: 200px;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .p2 {
+      grid-area: p2;
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center; }
+    .grid__productos .p {
+      grid-area: p;
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center; } }
+
+body {
+  background-image: linear-gradient(#510cc0, #ac7ef7);
+  min-height: 100vh; }
+
+h1, h2, h3, h4, h5, p {
+  font-family: 'Roboto', sans-serif;
+  color: white; }

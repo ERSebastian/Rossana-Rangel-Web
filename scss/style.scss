@@ -1,0 +1,26 @@
+@import "_index";
+@import "_footer";
+@import "_cuadros";
+@import "_quiensoy";
+@import "_contacto";
+@import "_productos";
+
+$lila-100:#ac7ef7;
+$lila-200:#8743f3;
+$lila-300:#6610f2;
+$lila-400:#510cc0;
+$lila-500:#3f0c90;
+
+body {
+    background-image: linear-gradient($lila-400, $lila-100);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+
+ 

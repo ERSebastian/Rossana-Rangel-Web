@@ -1,0 +1,84 @@
+@media (min-width: 992px) {
+    .foto__vertical{
+        margin-right: 10px;
+        border-radius: 15px;
+        width: 500px;
+    }
+
+    .foto__horizontal {
+        display: none;
+    }
+
+    .texto__quiensoy {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        align-items: center;
+        width: 500px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cajas__quiensoy {
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+}
+
+.boton__quiensoy {
+    position: relative;
+    background-color: #ff9100;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer; 
+            a {
+                outline: none;
+                text-decoration: none;
+                color: white
+            }
+    }
+
+.boton__quiensoy:hover {
+    background-color: #da8313
+}
+
+@media (max-width: 991px) {
+ 
+    .foto__vertical{
+        display: none;
+    }
+
+    .foto__horizontal {
+        display: block;
+        border-radius: 15px;
+        margin: auto;
+        width: 95%;
+    }
+
+    .texto__quiensoy {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .cajas__quiensoy {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+        margin: 10px;
+    }
+}
