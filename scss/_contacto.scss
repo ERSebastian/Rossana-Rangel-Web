@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 $naranja: #faa45e;
+$lila-100:#e4d7fa;
+$lila-200:#8743f3;
+$lila-300:#6610f2;
+$lila-400:#e0ccff;
+$lila-500:#3f0c90;
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #ffffff;
@@ -84,16 +89,28 @@ body {
 header {
   color: white;
   position: relative;
-  margin: 100px 0 25px 0;
   font-size: 2.3em;
   text-align: center;
   letter-spacing: 7px;
 }
 
+.fondoFormulario {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $lila-200;
+  width: 600px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
 #form {
   position: relative;
   width: 500px;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 50px auto;
 }
 
 input {
@@ -117,7 +134,7 @@ input {
 }
 
 input:hover {
-  background: $naranja;
+  background: $lila-300;
   color: #e2dedb;
 }
 
@@ -144,7 +161,7 @@ textarea {
 }
 
 textarea:hover {
-  background: $naranja;
+  background: $lila-300;
   color: #e2dedb;
 }
 
@@ -169,11 +186,25 @@ textarea:hover {
 }
 
 @media (max-width: 600px) {
+
+  .fondoFormulario {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $lila-200;
+    width: 320px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
     #form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 25px auto 100px auto;
+        margin: 25px auto 25px auto;
         width: auto;
     }
       

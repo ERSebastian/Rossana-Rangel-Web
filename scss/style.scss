@@ -5,10 +5,10 @@
 @import "_contacto";
 @import "_productos";
 
-$lila-100:#ac7ef7;
+$lila-100:#e4d7fa;
 $lila-200:#8743f3;
 $lila-300:#6610f2;
-$lila-400:#510cc0;
+$lila-400:#e0ccff;
 $lila-500:#3f0c90;
 
 body {
@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, p {
     color: white;
 }
 
+.navbar-brand img {
+    width: 40px;
+}
 
-
+.navColor{
+    background-color: $lila-100;
+}
  

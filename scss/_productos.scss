@@ -1,9 +1,18 @@
+$lila-100:#e4d7fa;
+$lila-200:#8743f3;
+$lila-300:#6610f2;
+$lila-400:#e0ccff;
+$lila-500:#3f0c90;
+
 @mixin display($display, $justify) {
     display: $display;
     justify-content: $justify;
 }
 
 .grid__productos {
+    border-radius: 15px;
+    margin: 30px;
+    background-color: $lila-200;
     display: grid;
     justify-content: center;
     color: white;
