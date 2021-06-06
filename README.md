@@ -9,6 +9,6 @@ Biografía y Portfolio para venta de cuadros y piezas artísticas.
 * Bootstrap v5.0.1
 
 ##Autor
-*Sebastián Elefanté - Diseño y Maquetación
+* Sebastián Elefanté - Diseño y Maquetación
 
 
