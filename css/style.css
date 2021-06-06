@@ -1,33 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-@media (min-width: 992px) {
-  .caja__quiensoy {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-    .caja__quiensoy img {
-      height: 20rem; }
-    .caja__quiensoy button {
-      width: 150px;
-      border-radius: 5px;
-      background-color: #ff905d;
-      border: none;
-      color: #cc2285;
-      font-family: 'Odibee Sans', cursive;
-      font-size: 1.5rem; } }
+.caja__quiensoy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .caja__quiensoy img {
+    height: 20rem; }
+  .caja__quiensoy button {
+    width: 150px;
+    border-radius: 5px;
+    background-color: #ff905d;
+    border: none;
+    color: #cc2285;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.5rem; }
 
 @media (max-width: 991px) {
-  .caja__quiensoy {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-    .caja__quiensoy img {
-      width: 500px; } }
+  .caja__quiensoy img {
+    height: 15rem; }
+  .caja__quiensoy button {
+    width: 100px;
+    font-size: 1.2rem; } }
 
 @media (max-width: 720px) {
   .caja__quiensoy {
@@ -36,7 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%); }
     .caja__quiensoy img {
-      width: 300px; } }
+      height: 10rem; } }
 
 footer {
   display: flex;
