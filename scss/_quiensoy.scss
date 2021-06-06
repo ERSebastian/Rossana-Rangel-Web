@@ -1,5 +1,5 @@
 $lila-100:#e4d7fa;
-$lila-200:#8743f3;
+$lila-200:#c39eff;
 $lila-300:#6610f2;
 $lila-400:#e0ccff;
 $lila-500:#3f0c90;
@@ -50,7 +50,7 @@ $lila-500:#3f0c90;
 
 .boton__quiensoy {
     position: relative;
-    background-color: #b2fbf7;
+    background-color: rgb(255, 144, 93);
     border: none;
     font-size: 20px;
     border-radius: 5px;
@@ -70,7 +70,7 @@ $lila-500:#3f0c90;
     }
 
 .boton__quiensoy:hover {
-    background-color: #7cedfb
+    background-color: rgb(250, 123, 63)
 }
 
 @media (max-width: 991px) {
