@@ -172,7 +172,7 @@ input::placeholder, textarea::placeholder {
   color: #ffffff;
   font-size: 0.875em; }
 
-input:focus::placeholder, textarea::focus:placeholder {
+input:focus::placeholder, textarea:focus:placeholder {
   color: #ffffff; }
 
 input::-ms-placeholder, textarea::-ms-placeholder {
@@ -208,7 +208,7 @@ input:hover::placeholder, textarea:hover::placeholder {
   color: #ffffff;
   font-size: 0.875em; }
 
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
   color: #ffffff; }
 
 body {
@@ -224,16 +224,12 @@ header {
   letter-spacing: 7px; }
 
 .fondoFormulario {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #c39eff;
   width: 600px;
   padding: 5px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px; }
 
 #form {
   position: relative;
@@ -297,12 +293,6 @@ textarea:hover {
 
 @media (max-width: 600px) {
   .fondoFormulario {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #c39eff;
     width: 320px;
     padding: 5px;
