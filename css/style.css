@@ -464,9 +464,35 @@ textarea:hover {
       display: flex;
       justify-content: center; } }
 
+.t404 {
+  background-color: #c39eff;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 15px;
+  z-index: 2; }
+
+.b404 button {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #ff905d;
+  border: none;
+  color: #cc2285;
+  font-size: 1.5rem;
+  z-index: 3;
+  margin: 0 50px 0 50px; }
+
+.bb404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.f404 img {
+  margin-left: 25%;
+  width: 50%;
+  height: auto; }
+
 body {
-  background-image: linear-gradient(#e0ccff, #e4d7fa);
-  min-height: 100vh; }
+  background-color: #e4d7fa !important; }
 
 h1, h2, h3, h4, h5, p {
   font-family: 'Roboto', sans-serif;

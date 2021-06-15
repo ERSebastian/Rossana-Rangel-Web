@@ -5,11 +5,10 @@
 @import "_quiensoy";
 @import "_contacto";
 @import "_productos";
-
+@import "_404";
 
 body {
-    background-image: linear-gradient($lila-400, $lila-100);
-    min-height: 100vh;
+ background-color: $lila-100 !important;
 }
 
 h1, h2, h3, h4, h5, p {
